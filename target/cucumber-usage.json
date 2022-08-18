@@ -1,0 +1,183 @@
+[
+  {
+    "source": "^\"([^\"]*)\" EmailAdress girilir$",
+    "steps": [
+      {
+        "name": "\"orkun1@gmail.com\" EmailAdress girilir",
+        "aggregatedDurations": {
+          "average": 0.0981859,
+          "median": 0.0981859
+        },
+        "durations": [
+          {
+            "duration": 0.0981859,
+            "location": "src/test/java/contactUs.feature:6"
+          }
+        ]
+      },
+      {
+        "name": "\"sinem10@gmail.com\" EmailAdress girilir",
+        "aggregatedDurations": {
+          "average": 0.088998701,
+          "median": 0.088998701
+        },
+        "durations": [
+          {
+            "duration": 0.088998701,
+            "location": "src/test/java/contactUs.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^SubjectHeading seceneklerinden Webmaster secilir$",
+    "steps": [
+      {
+        "name": "SubjectHeading seceneklerinden Webmaster secilir",
+        "aggregatedDurations": {
+          "average": 0.07960865,
+          "median": 0.07960865
+        },
+        "durations": [
+          {
+            "duration": 0.090122701,
+            "location": "src/test/java/contactUs.feature:5"
+          },
+          {
+            "duration": 0.0690946,
+            "location": "src/test/java/contactUs.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^ContactUs butonuna tiklanir$",
+    "steps": [
+      {
+        "name": "ContactUs butonuna tiklanir",
+        "aggregatedDurations": {
+          "average": 29.305153549,
+          "median": 29.305153549
+        },
+        "durations": [
+          {
+            "duration": 57.0935116,
+            "location": "src/test/java/contactUs.feature:4"
+          },
+          {
+            "duration": 1.516795499,
+            "location": "src/test/java/contactUs.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^\"([^\"]*)\" Message yazilir$",
+    "steps": [
+      {
+        "name": "\"adssadaklsdlskadklşsadsaşldşlksaldsa\" Message yazilir",
+        "aggregatedDurations": {
+          "average": 0.1102827,
+          "median": 0.1102827
+        },
+        "durations": [
+          {
+            "duration": 0.1102827,
+            "location": "src/test/java/contactUs.feature:8"
+          }
+        ]
+      },
+      {
+        "name": "\"oalsdklasşdjvnxaklcasdasdadsdsads\" Message yazilir",
+        "aggregatedDurations": {
+          "average": 0.104454,
+          "median": 0.104454
+        },
+        "durations": [
+          {
+            "duration": 0.104454,
+            "location": "src/test/java/contactUs.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^\"([^\"]*)\" Order reference girilir$",
+    "steps": [
+      {
+        "name": "\"12345689\" Order reference girilir",
+        "aggregatedDurations": {
+          "average": 0.1249246,
+          "median": 0.1249246
+        },
+        "durations": [
+          {
+            "duration": 0.1249246,
+            "location": "src/test/java/contactUs.feature:7"
+          }
+        ]
+      },
+      {
+        "name": "\"98746521\" Order reference girilir",
+        "aggregatedDurations": {
+          "average": 0.0982646,
+          "median": 0.0982646
+        },
+        "durations": [
+          {
+            "duration": 0.0982646,
+            "location": "src/test/java/contactUs.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Go to Website$",
+    "steps": [
+      {
+        "name": "Go to Website",
+        "aggregatedDurations": {
+          "average": 12.7869957,
+          "median": 12.7869957
+        },
+        "durations": [
+          {
+            "duration": 22.475780201,
+            "location": "src/test/java/contactUs.feature:3"
+          },
+          {
+            "duration": 3.0982112,
+            "location": "src/test/java/contactUs.feature:3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Send butonuna tiklanir$",
+    "steps": [
+      {
+        "name": "Send butonuna tiklanir",
+        "aggregatedDurations": {
+          "average": 4.2197527,
+          "median": 4.2197527
+        },
+        "durations": [
+          {
+            "duration": 5.2264393,
+            "location": "src/test/java/contactUs.feature:9"
+          },
+          {
+            "duration": 3.2130661,
+            "location": "src/test/java/contactUs.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

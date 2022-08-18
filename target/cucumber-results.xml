@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="93.408132">
+<testcase classname="Cucumber Test Automation contactUs" name="contactUs Scenario" time="85.219247">
+<system-out><![CDATA[Given Go to Website.........................................................passed
+And ContactUs butonuna tiklanir.............................................passed
+And SubjectHeading seceneklerinden Webmaster secilir........................passed
+And "orkun1@gmail.com" EmailAdress girilir..................................passed
+And "12345689" Order reference girilir......................................passed
+When "adssadaklsdlskadklşsadsaşldşlksaldsa" Message yazilir.................passed
+Then Send butonuna tiklanir.................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Cucumber Test Automation contactUs" name="contactUs Scenario 2" time="8.188885">
+<system-out><![CDATA[Given Go to Website.........................................................passed
+And ContactUs butonuna tiklanir.............................................passed
+And SubjectHeading seceneklerinden Webmaster secilir........................passed
+And "sinem10@gmail.com" EmailAdress girilir.................................passed
+And "98746521" Order reference girilir......................................passed
+When "oalsdklasşdjvnxaklcasdasdadsdsads" Message yazilir....................passed
+Then Send butonuna tiklanir.................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

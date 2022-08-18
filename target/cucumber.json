@@ -1,0 +1,254 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "contactUs Scenario",
+        "description": "",
+        "id": "cucumber-test-automation-contactus;contactus-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22475780201,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Go to Website",
+            "match": {
+              "location": "RegisterSteps.go_to_Website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57093511600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "ContactUs butonuna tiklanir",
+            "match": {
+              "location": "ContactSteps.contactusButonunaTiklanir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90122701,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "SubjectHeading seceneklerinden Webmaster secilir",
+            "match": {
+              "location": "ContactSteps.subjectheadingSeceneklerindenWebmasterSecilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98185900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"orkun1@gmail.com\" EmailAdress girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "orkun1@gmail.com",
+                  "offset": 1
+                }
+              ],
+              "location": "ContactSteps.emailadressGirilir(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 124924600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"12345689\" Order reference girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "12345689",
+                  "offset": 1
+                }
+              ],
+              "location": "ContactSteps.orderReferenceGirilir(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110282700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"adssadaklsdlskadklşsadsaşldşlksaldsa\" Message yazilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "adssadaklsdlskadklşsadsaşldşlksaldsa",
+                  "offset": 1
+                }
+              ],
+              "location": "ContactSteps.messageYazilir(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5226439300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Send butonuna tiklanir",
+            "match": {
+              "location": "ContactSteps.sendButonunaTiklanir()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "contactUs Scenario",
+        "description": "",
+        "id": "cucumber-test-automation-contactus;contactus-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3098211200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Go to Website",
+            "match": {
+              "location": "RegisterSteps.go_to_Website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1516795499,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "ContactUs butonuna tiklanir",
+            "match": {
+              "location": "ContactSteps.contactusButonunaTiklanir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 69094600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "SubjectHeading seceneklerinden Webmaster secilir",
+            "match": {
+              "location": "ContactSteps.subjectheadingSeceneklerindenWebmasterSecilir()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88998701,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "\"sinem10@gmail.com\" EmailAdress girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sinem10@gmail.com",
+                  "offset": 1
+                }
+              ],
+              "location": "ContactSteps.emailadressGirilir(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 98264600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "\"98746521\" Order reference girilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "98746521",
+                  "offset": 1
+                }
+              ],
+              "location": "ContactSteps.orderReferenceGirilir(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104454000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "\"oalsdklasşdjvnxaklcasdasdadsdsads\" Message yazilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "oalsdklasşdjvnxaklcasdasdadsdsads",
+                  "offset": 1
+                }
+              ],
+              "location": "ContactSteps.messageYazilir(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3213066100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Send butonuna tiklanir",
+            "match": {
+              "location": "ContactSteps.sendButonunaTiklanir()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Cucumber Test Automation contactUs",
+    "description": "",
+    "id": "cucumber-test-automation-contactus",
+    "keyword": "Feature",
+    "uri": "src/test/java/contactUs.feature"
+  }
+]
